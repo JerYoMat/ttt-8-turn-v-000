@@ -33,6 +33,7 @@ def position_taken?(board, index)
 end
 end
 
+<<<<<<< HEAD
 def turn(board)
   puts "Please enter 1-9:"
   index = input_to_index(gets.strip)
@@ -43,5 +44,12 @@ def turn(board)
     turn(board)
   end 
 
+=======
+
+def turn(board, index, token)
+  puts "Please enter 1-9:"
+  user_input = gets.strip
+  input_to_index(user_input)
+>>>>>>> 88b0abaeb8c88e024f752712b6196851ef1dde0c
   
 end
